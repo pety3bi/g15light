@@ -42,16 +42,13 @@
     <ClInclude Include="include\lglcd_dda_dllimp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="include\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
