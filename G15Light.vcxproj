@@ -80,7 +80,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="G15Light.ico" />
-    <None Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="G15Light.rc">
