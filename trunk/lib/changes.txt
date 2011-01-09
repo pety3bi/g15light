@@ -1,0 +1,29 @@
+changelog
+
+v0.3.1:
+  New features:
+    - Added support for the G-Key-functions for the new G15
+
+v0.3:
+  Changes:
+    - The calling convention of all key-callback functions has changed from stdcall to cdecl.
+      This ensures the compatibility to the java-wrapper by ugn
+    - A parameter for exclusive access to the keyboard has been added to LgOpenLcdDevice
+  New features:
+    - The (new) function LgGetLcdDeviceDisplayName can be used to get the device name of the
+      keyboard that is used by the library.
+    - The library is now supporting the new version of the g15 partially
+
+v0.2:
+  Bugfixes:
+    - The switch that switches between "normal" and "game"-mode is now recognized correctly
+      (VK_LG_KB_GAMESWITCH_ON and VK_LG_KB_GAMESWITCH_OFF in KeyboardKey)
+      -> The size of Modifier from KeyboardKeyCallbackFunction is now a Word (two bytes)!
+    - The return values of the LgSetXxxCallbackFunction return now "true" if Callback is set
+      to 0 when Callback is already 0
+  New features:
+    - Key polling is now possible for Keyboard-Keys, for Media-Keys and for G-Keys:
+      LgPollGKeys, LgPollKeyboardKeys, LgPollMediaKeys
+
+v0.1:
+  initial version, implemented nearly everything ;)
